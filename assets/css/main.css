@@ -168,7 +168,7 @@ input, select, textarea {
 		letter-spacing: 0.225em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; Modified by Phil 2022-12-14 */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3630,7 +3630,7 @@ input, select, textarea {
 
 		#banner p {
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			/* removed by Phil 2022-12-14 text-transform: uppercase;*/
 		}
 
 			#banner p a {
@@ -3663,7 +3663,7 @@ input, select, textarea {
 			padding-left: 0.225em;
 			position: absolute;
 			text-align: center;
-			text-transform: uppercase;
+			/* text-transform: uppercase; Modified by PHil 2022-12-14 */
 			width: 16em;
 			z-index: 1;
 		}
@@ -3833,7 +3833,7 @@ input, select, textarea {
 		#main > header p {
 			color: inherit;
 			letter-spacing: 0.225em;
-			text-transform: uppercase;
+			/* text-transform: uppercase; Modified by Phil 2022-12-14 */
 			top: 0;
 		}
 
