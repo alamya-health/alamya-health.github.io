@@ -165,7 +165,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 800;
-		letter-spacing: 0.225em;
+		letter-spacing: 0.1em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		/* text-transform: uppercase; Modified by Phil 2022-12-14 */
@@ -177,7 +177,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.65em;
 		line-height: 1.75em;
 	}
 
