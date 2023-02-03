@@ -3,6 +3,15 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
+NOTE: This was set-up using these two sets of instructions:
+
+https://towardsdatascience.com/how-to-create-a-stunning-personal-portfolio-website-for-free-50ec15b059dd
+
+Also:
+https://jinnabalu.medium.com/godaddy-domain-with-github-pages-62aed906d4ef
+
+
+
 A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
 and an assortment of pre-styled elements. So, pretty much what you were expecting
 -- except, of course, for how it's put together, specifically:
