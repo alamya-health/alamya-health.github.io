@@ -291,6 +291,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -465,7 +466,7 @@ input, select, textarea {
 		}
 
 			.row.gtr-50 > * {
-				padding: 0 0 0 0.75em;
+				padding: 0 0.75em 0 0.75em;
 			}
 
 			.row.gtr-50.gtr-uniform {
@@ -473,7 +474,7 @@ input, select, textarea {
 			}
 
 				.row.gtr-50.gtr-uniform > * {
-					padding-top: 0.75em;
+					padding-top: 1.5em;
 				}
 
 		.row {
@@ -482,7 +483,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 0 0 0 1.5em;
+				padding: 0 1.5em 0 1.5em;
 			}
 
 			.row.gtr-uniform {
@@ -534,6 +535,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+    			justify-content: center;
 			}
 
 				.row > * {
@@ -708,7 +710,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0 0 0 0.75em;
+						padding: 0 0.75em 0 0.75em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -716,7 +718,7 @@ input, select, textarea {
 					}
 
 						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.75em;
+							padding-top: 1.5em;
 						}
 
 				.row {
@@ -725,7 +727,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						padding: 0 2em 0 2em;
 					}
 
 					.row.gtr-uniform {
@@ -779,6 +781,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -953,7 +956,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-50 > * {
-						padding: 0 0 0 0.75em;
+						padding: 0 0.75em 0 0.75em;
 					}
 
 					.row.gtr-50.gtr-uniform {
@@ -961,7 +964,7 @@ input, select, textarea {
 					}
 
 						.row.gtr-50.gtr-uniform > * {
-							padding-top: 0.75em;
+							padding-top: 1.5em;
 						}
 
 				.row {
@@ -970,7 +973,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						padding: 0 1.5em 0 1.5em;
 					}
 
 					.row.gtr-uniform {
@@ -1024,6 +1027,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1215,7 +1219,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5em;
+						padding: 0 1.5em 0 1.5em;
 					}
 
 					.row.gtr-uniform {
@@ -1269,6 +1273,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1514,6 +1519,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -1763,7 +1769,7 @@ input, select, textarea {
 		position: relative;
 		top: -0.25em;
 		margin: 0 auto 2em auto;
-    	max-width: 75ch;
+    	max-width: 80ch;
 	}
 
 	header h3 + p {
@@ -2001,7 +2007,7 @@ input, select, textarea {
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
-			margin-bottom: 0;
+			margin-bottom: 2em;
 		}
 
 		.box.alt {
@@ -2565,19 +2571,19 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgba(0, 0, 0, 0.08);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
+				background-color: rgba(0, 0, 0, 0.12);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-color: rgba(0, 0, 0, 0.14);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgba(0, 0, 0, 0.18);
 			}
 
 			.features li:nth-child(5) {
@@ -2790,7 +2796,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 4em 0 1em 0 ;
+		padding: 4em 0 2em 0 ;
 	}
 
 		.wrapper > .inner {
