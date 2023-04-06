@@ -284,6 +284,77 @@ input, select, textarea {
 		text-align: right;
 	}
 
+/* Poem Banner */
+	.poem {
+		width: 100%; 
+		min-height: 250px; 
+		background-image: url(../../images/alakai-banner.jpg);
+		background-color: #003a5d;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.poem > .overlay {
+		background-color: rgba(0, 0, 0, 0.45);
+	} 
+	
+	.overlay > .poem-inner {
+		width: 80%; 
+		min-height: 250px;
+		margin: auto; 
+		display: flex; 
+		flex-direction: row; 
+		align-items: center; 
+		text-align: center
+	}
+	
+	.poem-inner > .name {
+		display: flex; 
+		flex: 1; 
+		min-height: 65px;
+	}
+
+	.poem-inner > .poem-content {
+		display: flex; 
+		justify-content: space-between; 
+		flex-direction: row; 
+		flex: 4;
+	}
+
+	.name > .para {
+		min-width: 120px;
+	}
+
+	.poem-content > .para {
+		min-width: 150px;
+		min-height: 110px;
+	}
+
+	@media screen and (max-width: 736px) {
+		.overlay > .poem-inner {
+			padding: 2em 0 2em 0;
+			display: flex; 
+			flex-direction: column; 
+			justify-content: center; 
+			align-items: center; 
+			
+		}
+
+		.poem-content> .para {
+			margin: 0.6em;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.poem-inner > .poem-content {
+			display: flex; 
+			justify-content: space-between; 
+			flex-direction: column; 
+			flex: 4;
+		}
+	}
+
 /* Row */
 
 	.row {
