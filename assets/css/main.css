@@ -365,6 +365,10 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+		.row[id] { /* Rows with a specified id are used for navigation within the page and should have some top padding when scrolled to */
+			padding: .5em 0;
+		}
+
 		.row > * {
 			box-sizing: border-box;
 		}
