@@ -3967,6 +3967,25 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+/* Back to top link */
+	#go-top {
+		bottom: 1em;
+		float: right;
+		margin: -2em 1em 1em;
+		position: sticky;
+	}
+		#go-top:after {
+			background-image: url("images/arrowUp.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			content: '';
+			display: block;
+			height: 1.5em;
+			right: 0;
+			width: 1.5em;
+		}
+
 /* Footer */
 
 	#footer {
