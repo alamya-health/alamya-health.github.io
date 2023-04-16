@@ -365,6 +365,10 @@ input, select, textarea {
 		justify-content: center;
 	}
 
+		.row[id] { /* Rows with a specified id are used for navigation within the page and should have some top padding when scrolled to */
+			padding: .5em 0;
+		}
+
 		.row > * {
 			box-sizing: border-box;
 		}
@@ -3962,6 +3966,25 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* Back to top link */
+	#go-top {
+		bottom: 1em;
+		float: right;
+		margin: -2em 1em 1em;
+		position: sticky;
+	}
+		#go-top:after {
+			background-image: url("images/arrowUp.svg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			content: '';
+			display: block;
+			height: 1.5em;
+			right: 0;
+			width: 1.5em;
+		}
 
 /* Footer */
 
