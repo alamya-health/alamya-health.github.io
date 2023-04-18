@@ -2741,6 +2741,26 @@ input, select, textarea {
 
 			}
 
+/* Partners */
+	.partners {
+		align-items: center;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4em;
+		justify-content: space-around;
+		list-style-type: none;
+		padding: 0;
+	}
+		.partners li {
+			padding: 0;
+		}
+		.partners a:link {
+			border: 0 none;
+		}
+		.partners img {
+			max-height: 75px;
+		}
+
 /* Spotlight */
 
 	.spotlight {
