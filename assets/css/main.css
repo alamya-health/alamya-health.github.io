@@ -4229,19 +4229,15 @@ input, select, textarea {
 	list-style-type: none;
 }
 	.product-list .product-item {
-		border: 1px solid;
-		border-radius: 2em;
-		display: inline-block;
 		margin: .5em .5em .5em 0;
-		padding: 1em 2em;
 	}
 		.product-list .product-item .item-counter {
-			background: #003a5d;
+			background: rgba(0, 0, 0, .05);
 			border-radius: 50%;
-			color: #ffffff;
+			color: #003a5d;
 			display: inline-block;
 			line-height: 2;
-			margin: 0 1em 0 -1em;
+			margin: 0 1em 0 0;
 			height: 2em;
 			width: 2em;
 			text-align: center;
