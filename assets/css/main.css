@@ -4022,8 +4022,12 @@ input, select, textarea {
 	#go-top {
 		bottom: 1em;
 		float: right;
-		margin: -2em 1em 1em;
+		margin: -2.5em .5em 1em;
 		position: sticky;
+		width: 2.5em;
+		height: 2.5em;
+		background: #ffffff;
+		border-radius: 50%;
 	}
 		#go-top:after {
 			background-image: url("images/arrowUp.svg");
@@ -4033,8 +4037,10 @@ input, select, textarea {
 			content: '';
 			display: block;
 			height: 1.5em;
-			right: 0;
 			width: 1.5em;
+			position: absolute;
+			left: .5em;
+			top: .5em;
 		}
 
 /* Footer */
