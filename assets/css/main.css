@@ -272,6 +272,16 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
+	abbr {
+		text-decoration: none;
+		cursor: help;
+	}
+
+	address {
+		font-style: italic;
+		margin: 2em 0;
+	}
+
 	.align-left {
 		text-align: left;
 	}
@@ -4158,3 +4168,174 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #003a5d;
 	}
+
+/* "More info" link*/
+.nav-more-info {
+	background-color: #4ac1e0;
+	background-image: url(images/arrowRight.svg);
+	background-position: center right 20px;
+	background-repeat: no-repeat;
+	border: 0 none;
+	border-radius: 2px;
+	color: #000000;
+	display: inline-block;
+	padding: .75em 4em .75em 2em;
+	text-transform: uppercase;
+}
+	.nav-more-info.read-more {
+		background-image: url(images/arrowRight.svg);
+	}
+	.nav-more-info.download {
+		background-image: url(images/arrowDown.svg);
+	}
+
+/* Solutions */
+@media screen and (min-width: 980px) {
+	.solutions-wrapper {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-justify-content: space-between;
+		-webkit-justify-content: space-between;
+		-ms-justify-content: space-between;
+		justify-content: space-between;
+	}
+		.solutions-wrapper > .solutions-preamble {
+			width: 60%;
+		}
+		.solutions-wrapper > .solution-box {
+			width: 37%;
+		}
+	}
+}
+
+.solutions-wrapper {
+	margin-bottom: 4em;
+}
+	.solution-box {
+		color: white;
+		padding: 2em;
+	}
+
+		.solution-box.wrapper h3 {
+			color: #ffffff;
+		}
+
+/* Solutions -> First in Class */
+
+/* Product list */
+.product-list {
+	list-style-type: none;
+}
+	.product-list .product-item {
+		border: 1px solid;
+		border-radius: 2em;
+		display: inline-block;
+		margin: .5em .5em .5em 0;
+		padding: 1em 2em;
+	}
+		.product-list .product-item .item-counter {
+			background: #003a5d;
+			border-radius: 50%;
+			color: #ffffff;
+			display: inline-block;
+			line-height: 2;
+			margin: 0 1em 0 -1em;
+			height: 2em;
+			width: 2em;
+			text-align: center;
+		}
+		
+/* Product list */
+.product-menu {
+	position: sticky;
+	background: #003a5d;
+	margin: auto;
+	top: 2.75em;
+	z-index: 10000;
+	list-style-type: none;
+}
+.product-menu-entries {
+	background-color: rgba(0, 0, 0, .25);
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	list-style-type: none;
+	padding: .5em;
+}
+	.product-menu a {
+		margin: .5em;
+	}
+
+@media screen and (max-width: 980px) {
+	.product-menu-entries {
+		justify-content: flex-start;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		list-style-type: none;
+	}
+}
+
+/* Ordering */
+.sample-instructions {
+	margin-top: 4em;
+}
+.sample-instructions .diagonal-split {
+	text-transform: uppercase;
+	position: relative;
+	background-image: -moz-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
+	background-image: -webkit-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
+	background-image: -ms-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
+	background-image: linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
+}
+	.sample-instructions .diagonal-split > *:nth-child(1) {
+		text-align: right;
+	}
+	.sample-instructions .diagonal-split > *:nth-child(2) {
+		position: absolute;
+		bottom: 0.75em;
+	}
+
+.sample-instructions tr th:first-child {
+	border-right: 1px solid #ffffff;
+}
+
+.sample-instructions thead tr:first-child th {
+	padding-bottom: 0;
+}
+.sample-instructions tr.sample-notes td {
+	font-size: .75em;
+}
+.sample-instructions thead tr.sample-notes td {
+	padding-top: 0;
+}
+
+/* Billing */
+.wrapper.style5 table.pricing thead tr th {
+	background: #003a5d;
+	color: #ffffff;
+	padding: 0.75em;
+	text-transform: uppercase;
+}
+.pricing tr *:nth-child(2) {
+	text-align: right;
+}
+.wrapper.style5 table.pricing tbody tr:nth-child(3n + 1) {
+	background-color: rgba(0, 0, 0, 0.0375);
+}
+.wrapper.style5 table.pricing tbody tr:nth-child(3n + 2),
+.wrapper.style5 table.pricing tbody tr:nth-child(3n) {
+	background-color: transparent;
+}
+
+.wrapper.style5 table.pricing tbody tr:last-child td {
+	border-bottom: 3px solid #003a5d;
+}
