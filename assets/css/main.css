@@ -4287,10 +4287,21 @@ input, select, textarea {
 .sample-instructions .diagonal-split {
 	text-transform: uppercase;
 	position: relative;
+}
+.style1 .sample-instructions .diagonal-split,
+.style2 .sample-instructions .diagonal-split,
+.style3 .sample-instructions .diagonal-split,
+.style4 .sample-instructions .diagonal-split {
 	background-image: -moz-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
 	background-image: -webkit-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
 	background-image: -ms-linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
 	background-image: linear-gradient(to bottom left, transparent 49%, #ffffff 50%, rgba(255,255,255, .05) 51%);
+}
+.style5 .sample-instructions .diagonal-split {
+	background-image: -moz-linear-gradient(to bottom left, transparent 49.5%, #d9d9d9 50%, rgba(0,0,0, .04) 50.5%);
+	background-image: -webkit-linear-gradient(to bottom left, transparent 49.5%, #d9d9d9 50%, rgba(0,0,0, .04) 50.5%);
+	background-image: -ms-linear-gradient(to bottom left, transparent 49.5%, #d9d9d9 50%, rgba(0,0,0, .04) 50.5%);
+	background-image: linear-gradient(to bottom left, transparent 49.5%, #d9d9d9 50%, rgba(0,0,0, .04) 50.5%);
 }
 	.sample-instructions .diagonal-split > *:nth-child(1) {
 		text-align: right;
@@ -4300,8 +4311,14 @@ input, select, textarea {
 		bottom: 0.75em;
 	}
 
-.sample-instructions tr th:first-child {
+.style1 .sample-instructions tr th:first-child,
+.style2 .sample-instructions tr th:first-child,
+.style3 .sample-instructions tr th:first-child,
+.style4 .sample-instructions tr th:first-child {
 	border-right: 1px solid #ffffff;
+}
+.style5 .sample-instructions tr th:first-child {
+	border-right: 2px solid rgba(0,0,0, .04);
 }
 
 .sample-instructions thead tr:first-child th {
@@ -4315,23 +4332,48 @@ input, select, textarea {
 }
 
 /* Billing */
-.wrapper.style5 table.pricing thead tr th {
-	background: #003a5d;
-	color: #ffffff;
+.wrapper table.pricing thead tr th {
 	padding: 0.75em;
 	text-transform: uppercase;
 }
+.wrapper.style1 table.pricing thead tr th,
+.wrapper.style2 table.pricing thead tr th,
+.wrapper.style3 table.pricing thead tr th,
+.wrapper.style4 table.pricing thead tr th {
+	background: #ffffff;
+	color: #003a5d;
+}
+
+.wrapper.style5 table.pricing thead tr th {
+	background: #003a5d;
+	color: #ffffff;
+}
+
 .pricing tr *:nth-child(2) {
 	text-align: right;
 }
+.wrapper table.pricing tbody tr:nth-child(3n + 2),
+.wrapper table.pricing tbody tr:nth-child(3n) {
+	background-color: transparent !important;
+}
+
+.wrapper.style1 table.pricing tbody tr:nth-child(3n + 1),
+.wrapper.style2 table.pricing tbody tr:nth-child(3n + 1),
+.wrapper.style3 table.pricing tbody tr:nth-child(3n + 1),
+.wrapper.style4 table.pricing tbody tr:nth-child(3n + 1) {
+	background-color: rgba(255, 255, 255, 0.08);
+}
+
 .wrapper.style5 table.pricing tbody tr:nth-child(3n + 1) {
 	background-color: rgba(0, 0, 0, 0.0375);
 }
-.wrapper.style5 table.pricing tbody tr:nth-child(3n + 2),
-.wrapper.style5 table.pricing tbody tr:nth-child(3n) {
-	background-color: transparent;
-}
 
+.wrapper.style1 table.pricing tbody tr:last-child td,
+.wrapper.style2 table.pricing tbody tr:last-child td,
+.wrapper.style3 table.pricing tbody tr:last-child td,
+.wrapper.style4 table.pricing tbody tr:last-child td {
+	border-bottom: 3px solid #ffffff;
+}
 .wrapper.style5 table.pricing tbody tr:last-child td {
 	border-bottom: 3px solid #003a5d;
 }
