@@ -4028,6 +4028,11 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+/* Responsive table container */
+	.table-container {
+		overflow-x: auto;
+	}
+
 /* Back to top link */
 	#go-top {
 		bottom: 1em;
@@ -4284,6 +4289,7 @@ input, select, textarea {
 .sample-instructions {
 	margin-top: 4em;
 }
+
 .sample-instructions .diagonal-split {
 	text-transform: uppercase;
 	position: relative;
