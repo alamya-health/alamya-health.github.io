@@ -4358,6 +4358,10 @@ input, select, textarea {
 .pricing tr *:nth-child(2) {
 	text-align: right;
 }
+.pricing tr *:nth-child(2) b {
+	font-weight: 800;
+	font-size: 1.25rem;
+}
 .wrapper table.pricing tbody tr:nth-child(3n + 2),
 .wrapper table.pricing tbody tr:nth-child(3n) {
 	background-color: transparent !important;
