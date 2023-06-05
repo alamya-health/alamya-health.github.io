@@ -71,7 +71,7 @@
 						
 						<h3>Who is this test for?</h3>
 						<ul>
-							<li>Clinical research participants requiring LR human genome sequencing +/- LR transcriptom</li>
+							<li>Clinical research participants requiring LR human genome sequencing +/- LR transcriptome</li>
 						</ul>
 					</div>
 				</section>
@@ -101,10 +101,10 @@
 							Basecalling, mapping, variant calling, and phasing are performed using the EPI2ME pipeline developed by Oxford Nanopore Technologies. This pipeline leverages the latest production-level bioinformatics tools to generate a comprehensive set of genomic variants. Details of the analysis pipeline can be found at <a target="_blank" href="https://github.com/epi2me-labs/wf-human-variation"> https://github.com/epi2me-labs/wf-human-variation</a>. Briefly, canonical and modified basecalling is performed with Dorado and Remora; alignment is performed with minimap2 against the GRCh38 reference genome; methylated bases are extracted with modbam2bed; SNVs and indels are called with Clair3; SVs are called with Sniffles2; repeat expansions are called by Straglr; and CNVs are called with QDNAseq.
 						</p>
 						<p>
-							SNVs, indels, and CNVs are annotated and prioritized using the ENLITER toolkit from Breakthrough Genomics . ENLITER integrates variant interpretation and annotation with current literature, known genotype-to-phenotype databases (e.g. ClinVar, OMIM, and DECIPHER), population allele frequencies from gnomAD, and <i>in silico</i> scoring metrics (e.g. SpliceAI and CADD). 
+							SNVs, indels, and CNVs are annotated and prioritized using the ENLITER toolkit from Breakthrough Genomics. ENLITER integrates variant interpretation and annotation with current literature, known genotype-to-phenotype databases (e.g. ClinVar, OMIM, and DECIPHER), population allele frequencies from gnomAD, and <i>in silico</i> scoring metrics (e.g. SpliceAI and CADD).
 						</p>
 						<p>
-							SSs, repeat expansions, and aberrant allelic methylation are annotated against known disease genes and disease-associated imprinted regions and compared to public allele frequency databases (e.g., gnomAD and 1000 Genomes project) as well as an in-house database.
+							SVs, repeat expansions, and aberrant allelic methylation are annotated against known disease genes and disease-associated imprinted regions and compared to public allele frequency databases (e.g., gnomAD and 1000 Genomes project) as well as an in-house database.
 						</p>
 						<p>
 							Known or predicted pathogenic variants and rare variants predicted to alter gene expression, splicing, or function are prioritized for review. In situations where the candidate gene has detectable expression in blood, transcriptome sequencing data will be used to support variant classification.
@@ -115,7 +115,7 @@
 							The Oxford Nanopore Technologies PromethION platform assay involves cDNA sequencing from whole blood RNA depleted for hemoglobin mRNA and ribosomal RNAs. Nanopore LRS enables characterization of complete transcripts and facilitates classification of candidate variants with molecular evidence of aberrant splicing, expression, and allele-specific expression.
 						</p>
 						<p>
-							Canonical and modified base calling is performed with Dorado. Mapping, transcript assembly, and gene- and transcript-level quantification will be performed using the EPI2ME pipeline developed by Oxford Nanopore Technologies. This pipeline leverages the latest production-level bioinformatics tools to generate a comprehensive view of an individual’s transcriptome. Details of the analysis pipeline can be found at <a target="_blank" href="https://github.com/epi2me-labs/wf-transcriptomes">https://github.com/epi2me-labs/wf-transcriptomes</a>. Briefly, FASTQ files are preprocessed with PyChopper, transcript-guided alignment is performed with minimap2 against the GRCh38 reference genome with the Gencode (v43) annotation database, transcript assembly is performed via stringtie, compared against the reference database using gffcompare, and fusion genes are detected by JAFFA.
+							Canonical and modified base calling is performed with Dorado. Mapping, transcript assembly, and gene-level and transcript-level quantification will be performed using the EPI2ME pipeline developed by Oxford Nanopore Technologies. This pipeline leverages the latest production-level bioinformatics tools to generate a comprehensive view of an individual’s transcriptome. Details of the analysis pipeline can be found at <a target="_blank" href="https://github.com/epi2me-labs/wf-transcriptomes">https://github.com/epi2me-labs/wf-transcriptomes</a>. Briefly, FASTQ files are preprocessed with PyChopper, transcript-guided alignment is performed with minimap2 against the GRCh38 reference genome with the Gencode (v43) annotation database, transcript assembly is performed via stringtie, compared against the reference database using gffcompare, and fusion genes are detected by JAFFA.
 						</p>
 						<p>
 							Candidate gene expression, detected splicing isoforms, and biased allelic expression is investigated on a gene-by-gene basis guided by variants identified through the Alamya Generation Beyond genome or to help resolve variants of uncertain significance in patients who have received clinical sequencing. This test might be unable to determine the consequence of candidate variants in genes with a low level of expression in blood.
