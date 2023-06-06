@@ -4195,36 +4195,60 @@ input, select, textarea {
 	}
 
 /* Solutions */
-@media screen and (min-width: 980px) {
+@media screen and (max-width: 980px) {
 	.solutions-wrapper {
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.solution-box {
+		min-width: 100%;
+	}
+}
+
+.solutions-wrapper {
+	padding-bottom: 4em;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-moz-row-gap: 2em;
+	-webkit-row-gap: 2em;
+	-ms-row-gap: 2em;
+	row-gap: 2em;
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	-ms-column-gap: 2em;
+	column-gap: 2em;
+}
+	.solution-box {
+		background-image: url("../../images/bg-generic.png");
+		border-radius: 3px;
+		color: white;
+		padding: 2em;
+		max-width: 48%;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 	}
-		.solutions-wrapper > .solutions-preamble {
-			width: 60%;
-		}
-		.solutions-wrapper > .solution-box {
-			width: 37%;
-		}
-	}
-}
 
-.solutions-wrapper {
-	margin-bottom: 4em;
-}
-	.solution-box {
-		color: white;
-		padding: 2em;
-	}
-
-		.solution-box.wrapper h3 {
+		.solution-box.wrapper h3, .solution-box.wrapper b {
 			color: #ffffff;
+			font-weight: 800;
 		}
 
 /* Solutions -> First in Class */
