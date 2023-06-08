@@ -4208,6 +4208,7 @@ input, select, textarea {
 }
 
 .solutions-wrapper {
+	padding-top: 1.5em;
 	padding-bottom: 4em;
 	display: -moz-flex;
 	display: -webkit-flex;
