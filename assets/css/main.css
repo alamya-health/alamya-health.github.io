@@ -4204,18 +4204,18 @@ input, select, textarea {
 
 /* Solutions */
 @media screen and (max-width: 980px) {
-	.solutions-wrapper {
+	.cta-wrapper {
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
 	}
-	.solution-box {
+	.cta-box {
 		min-width: 100%;
 	}
 }
 
-.solutions-wrapper {
+.cta-wrapper {
 	padding-top: 1.5em;
 	padding-bottom: 4em;
 	display: -moz-flex;
@@ -4235,12 +4235,12 @@ input, select, textarea {
 	-ms-column-gap: 2em;
 	column-gap: 2em;
 }
-	.solution-box {
+	.cta-box {
 		background-image: url("../../images/bg-generic.png");
 		border-radius: 3px;
 		color: white;
 		padding: 2em;
-		max-width: 48%;
+		width: 100%;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -4255,9 +4255,14 @@ input, select, textarea {
 		justify-content: space-between;
 	}
 
-		.solution-box.wrapper h3, .solution-box.wrapper b {
+		.cta-box.wrapper h3, .cta-box.wrapper b {
 			color: #ffffff;
 			font-weight: 800;
+		}
+
+		.cta-box.wrapper h4{
+			color: #ffffff;
+			font-weight: 600;
 		}
 
 /* Solutions -> First in Class */
