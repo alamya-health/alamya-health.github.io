@@ -4181,11 +4181,15 @@ input, select, textarea {
 	background-position: center right 20px;
 	background-repeat: no-repeat;
 	border: 0 none;
-	border-radius: 2px;
+	border-radius: 3px;
 	color: #000000;
 	display: inline-block;
-	padding: .75em 4em .75em 2em;
+	padding: .5em 4em .75em 2em;
 	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 600;
+	height: 3.125em;
+	letter-spacing: 0.225em;
 }
 	.nav-more-info.read-more {
 		background-image: url(images/arrowRight.svg);
