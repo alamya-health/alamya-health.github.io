@@ -4193,6 +4193,10 @@ input, select, textarea {
 	.nav-more-info.download {
 		background-image: url(images/arrowDown.svg);
 	}
+	.nav-more-info.new-tab {
+		background-image: url(images/newTab.svg);
+	}
+
 
 /* Solutions */
 @media screen and (max-width: 980px) {
