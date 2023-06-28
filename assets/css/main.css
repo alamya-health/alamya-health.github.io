@@ -3412,7 +3412,7 @@ input, select, textarea {
 				border-color: #dfdfdf;
 			}
 
-			.wrapper.style5 input[type="submit"],
+			/* .wrapper.style5 input[type="submit"],
 			.wrapper.style5 input[type="reset"],
 			.wrapper.style5 input[type="button"],
 			.wrapper.style5 button,
@@ -3435,7 +3435,7 @@ input, select, textarea {
 				.wrapper.style5 button:active,
 				.wrapper.style5 .button:active {
 					background-color: rgba(0, 0, 0, 0.1);
-				}
+				} */
 
 			@media screen and (max-width: 736px) {
 
