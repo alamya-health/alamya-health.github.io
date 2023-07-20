@@ -4235,6 +4235,14 @@ input, select, textarea {
 	-ms-column-gap: 2em;
 	column-gap: 2em;
 }
+
+.cta-wrapper.col {
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
 	.cta-box {
 		background-image: url("../../images/bg-generic.png");
 		border-radius: 3px;
