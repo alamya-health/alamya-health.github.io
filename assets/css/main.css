@@ -3783,7 +3783,7 @@ input, select, textarea {
 
 		#banner p {
 			letter-spacing: 0.225em;
-			margin: 0 auto 0 auto;
+			margin: 2em auto;
    			max-width: 75ch;
 			/* removed by Phil 2022-12-14 text-transform: uppercase;*/
 		}
@@ -3869,10 +3869,6 @@ input, select, textarea {
 
 				#banner h2 {
 					font-size: 1.25em;
-				}
-
-				#banner br {
-					display: none;
 				}
 
 				#banner .more {
