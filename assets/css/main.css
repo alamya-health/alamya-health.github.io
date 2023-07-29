@@ -3599,6 +3599,10 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
+		#header .logo {
+			height: 60px;
+			max-height: 100%;
+		}
 		#header h1 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
@@ -3771,6 +3775,11 @@ input, select, textarea {
 				bottom: 0;
 				right: 0;
 			}
+
+		#banner .logo {
+			width: 400px;
+			max-width: 100%;
+		}
 
 		#banner p {
 			letter-spacing: 0.225em;
